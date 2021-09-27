@@ -66,9 +66,13 @@ header {
   fill: #fff;
 }
 
-main {
+.home_page {
   padding-top: 24px;
   display: flex;
+}
+
+main {
+  padding-top: 24px;
 }
 
 .left {
@@ -242,6 +246,14 @@ svg {
   color: #ABBBC2;
 }
 
+.slick-prev {
+  left: -10px;
+}
+
+.slick-next {
+  right: -10px;
+}
+
 main {
   display: block;
   max-width: calc(100% - 149px);
@@ -269,15 +281,19 @@ main {
 }
 .member_status:after {
   content: "";
-  width: 10px;
-  height: 10px;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
   position: absolute;
-  bottom: 14px;
-  right: 70px;
   background-color: #85c144;
 }
 
 .members_list_item_link {
-  display: block;
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  color: #000;
+}
+.members_list_item_link > div {
+  margin: 10px 0;
 }
