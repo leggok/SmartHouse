@@ -297,3 +297,7 @@ main {
 .members_list_item_link > div {
   margin: 10px 0;
 }
+
+.news {
+  margin: 100px 20px;
+}

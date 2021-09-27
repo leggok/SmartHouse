@@ -66,6 +66,7 @@
                 <div class="main_title hw">
                     Members
                 </div>
+                <div class="time">16:23:01</div>
                 <div class="members_list">                        
                     <a href="#" class="members_list_item_link">
                         <div class="member_img">
@@ -108,7 +109,10 @@
                         <span class="member_status">At Home</span>
                     </a>                                            
                 </div>
-            </section>                  
+            </section>       
+            <section class="news">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga odio dolorum, error dicta magnam harum saepe, cum ab, quia laborum asperiores excepturi quos! Veniam animi quo delectus perspiciatis culpa voluptatum!
+            </section>           
         </main>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>                                     
         <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
@@ -125,6 +129,7 @@
             })
             function Timer() {
                 var dt = new Date()
+                let minutes = 0                
                 $('.time').text(dt.getHours() + ":" + dt.getMinutes() + ":" + dt.getSeconds());
                 setTimeout("Timer()", 1000);
             }
