@@ -301,3 +301,79 @@ main {
 .news {
   margin: 100px 20px;
 }
+
+/* rooms.html */
+.main_rooms {
+  display: flex;
+  align-items: center;
+}
+
+.room_carousel {
+  display: flex;
+}
+.room_carousel_img {
+  width: 300px;
+  height: 300px;
+  background-color: #ABBBC2;
+  border-radius: 10px;
+}
+.room_carousel_name {
+  text-transform: uppercase;
+  font-size: 40px;
+}
+.room_carousel_content {
+  padding: 0 20px 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.boxes {
+  display: flex;
+}
+
+.inside, .outside {
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  padding: 7px 17px;
+  width: 144px;
+  height: 112px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.temp, .hum {
+  display: flex;
+  justify-content: space-around;
+}
+
+.where {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.light {
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  padding: 7px 17px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.light > div {
+  margin-right: 10px;
+}
+
+.room_carousel_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.room_carousel_list_item {
+  margin-right: 10px;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: #efefef;
+}

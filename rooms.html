@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" href="assets/css/style.min.css">
+    </head>
+    <body>
+        <header>
+            <div class="menu">
+                <ul class="menu_list">
+                    <li class="menu_list_item">
+                        <a href="index.html">
+                            <svg>
+                                <use xlink:href="assets/img/sprite.svg#home"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="menu_list_item">
+                        <a href="#">
+                            <svg>
+                                <use xlink:href="assets/img/sprite.svg#placeholder"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="menu_list_item">
+                        <a href="rooms.html" class="active">
+                            <svg>
+                                <use xlink:href="assets/img/sprite.svg#room"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="menu_list_item">
+                        <a href="members.html">
+                            <svg>
+                                <use xlink:href="assets/img/sprite.svg#comm"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="menu_list_item">
+                        <a href="#">
+                            <svg>
+                                <use xlink:href="assets/img/sprite.svg#vector"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="menu_list_item">
+                        <a href="#">
+                            <svg>
+                                <use xlink:href="assets/img/sprite.svg#logout"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <main class="main_rooms">
+            <div class="room_carousel">
+                <div class="room_carousel_img"></div>
+                <div class="room_carousel_content">
+                    <div class="room_carousel_name title">Kitchen</div>
+                    <div class="boxes">
+                        <div class="inside">
+                            <div class="where">This room</div>
+                            <div class="vars">
+                                <div class="temp">                                
+                                    <div class="room_carousel_temperature-word">Temp</div>
+                                    <div class="room_carousel_temperature-number">20C</div>
+                                </div>
+                                <div class="hum">
+                                    <div class="room_carousel_hum-word">Hum</div>
+                                    <div class="room_carousel_hum-number">50%</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="outside">
+                            <div class="where">Outside</div>
+                            <div class="vars">
+                                <div class="temp">                                
+                                    <div class="room_carousel_temperature-word">Temp</div>
+                                    <div class="room_carousel_temperature-number">20C</div>
+                                </div>
+                                <div class="hum">
+                                    <div class="room_carousel_hum-word">Hum</div>
+                                    <div class="room_carousel_hum-number">50%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="light">                        
+                        <div class="room_carousel_light-word where">Room Lighting</div>
+                        <div class="room_carousel_light-number">80%</div>
+                    </div>                    
+                </div>
+                <ul class="room_carousel_list">
+                    <li class="room_carousel_list_item">Refrigerator</li>
+                    <li class="room_carousel_list_item">Microwave</li>
+                    <li class="room_carousel_list_item">Refrigerator</li>
+                    <li class="room_carousel_list_item">Microwave</li>
+                </ul> 
+            </div>
+        </main>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script>
+            $('.members_list').slick({Infinity: true, slidesToShow: 4, slidesToScroll: 1, arrows: true});
+            $('.todo_list_item_link').click(function (e) {
+                e.preventDefault();
+                $(this).toggleClass('done')
+            })
+            function Timer() {
+                var dt = new Date()
+                let minutes = 0
+                $('.time').text(dt.getHours() + ":" + dt.getMinutes() + ":" + dt.getSeconds());
+                setTimeout("Timer()", 1000);
+            }
+            Timer();
+        </script>
+    </body>
+</html>
