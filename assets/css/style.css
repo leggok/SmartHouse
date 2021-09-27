@@ -83,7 +83,9 @@ main {
   width: 38%;
 }
 
-.hw, .time, .wellcome {
+.hw,
+.time,
+.wellcome {
   font-size: 24px;
   font-weight: 700;
   margin-right: 4px;
@@ -196,31 +198,37 @@ svg {
   justify-content: space-between;
 }
 
-.weather, .date {
+.weather,
+.date {
   width: 49%;
   padding: 15px;
   border-radius: 10px;
   margin-bottom: 20px;
   box-shadow: 0px 8px 24px rgba(187, 187, 187, 0.32);
 }
-.weather_title, .date_title {
+.weather_title,
+.date_title {
   margin-bottom: 8px;
 }
-.weather_show, .date_show {
+.weather_show,
+.date_show {
   display: flex;
   align-items: center;
   justify-content: space-around;
   font-size: 40px;
 }
-.weather_show_icon svg, .date_show_icon svg {
+.weather_show_icon svg,
+.date_show_icon svg {
   width: 71px;
   height: 46px;
 }
-.weather_day, .date_day {
+.weather_day,
+.date_day {
   text-align: start;
   font-size: 24px;
 }
-.weather_day_week, .date_day_week {
+.weather_day_week,
+.date_day_week {
   text-align: end;
   font-size: 22px;
 }
@@ -230,23 +238,17 @@ svg {
   margin-bottom: 10px;
 }
 
-.members_list_item {
-  text-transform: uppercase;
-  border: 1px solid #ABBBC2;
-  border-radius: 10px;
-  width: 250px;
-  height: 350px;
-  box-shadow: 0px 8px 24px rgba(187, 187, 187, 0.32);
+.slick-prev:before, .slick-next:before {
+  color: #ABBBC2;
 }
-.members_list_item_link > *:not(:first-child) {
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+main {
+  display: block;
+  max-width: calc(100% - 149px);
 }
 
 .member_img {
-  width: 100%;
+  width: 250px;
   border-radius: 10px 10px 0 0;
   height: 150px;
   background-color: #ABBBC2;
@@ -274,4 +276,8 @@ svg {
   bottom: 14px;
   right: 70px;
   background-color: #85c144;
+}
+
+.members_list_item_link {
+  display: block;
 }
