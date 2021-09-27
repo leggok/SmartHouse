@@ -1,0 +1,267 @@
+{
+    "status": "ok",
+    "my_url": "https://newsapi.org/v2/everything?q=Apple&from=2021-09-23&sortBy=popularity&apiKey=f0f1c9a0ea70445da339e54f1afac1d7",
+    "totalResults": 1430,
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "Blogspot.com"
+            },
+            "author": "noreply@blogger.com (Unknown)",
+            "title": "In setback for Apple, EU plans one mobile charging port for all",
+            "description": "The EU aims to have a common charging port for mobile phones, tablets and headphones under a European Commission proposal presented on Thursday in a world first, with the move impacting iPhone maker Apple more than its rivals.The move has been more than 10 ye…",
+            "url": "https://techncruncher.blogspot.com/2021/09/in-setback-for-apple-eu-plans-one.html",
+            "urlToImage": null,
+            "publishedAt": "2021-09-23T13:14:00Z",
+            "content": "The EU aims to have a common charging port for mobile phones, tablets and headphones under a European Commission proposal presented on Thursday in a world first, with the move impacting iPhone maker … [+2476 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Gizmodo.com"
+            },
+            "author": "Sam Rutherford",
+            "title": "ZTE Won the Race to Create a Great Under-Display Camera",
+            "description": "Smartphone displays have evolved from notches to hole-punch cut-outs on their way to the final destination: an all-screen phone. And surprisingly, it’s not Samsung leading the way. It’s ZTE, a smartphone maker that has been hit with multiple sanctions and ban…",
+            "url": "https://gizmodo.com/zte-won-the-race-to-create-a-great-under-display-camera-1847698695",
+            "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/f45c1cd5b7b10db8e52ea0693b516a91.jpg",
+            "publishedAt": "2021-09-23T12:00:00Z",
+            "content": "Smartphone displays have evolved from notches to hole-punch cut-outs on their way to the final destination: an all-screen phone. And surprisingly, its not Samsung leading the way. Its ZTE, a smartpho… [+4531 chars]"
+        },
+        {
+            "source": {
+                "id": "bbc-news",
+                "name": "BBC News"
+            },
+            "author": "https://www.facebook.com/bbcnews",
+            "title": "Apple threatened Facebook ban over slavery posts on Instagram",
+            "description": "The media giant warned it would take Facebook products out of its App Store.",
+            "url": "https://www.bbc.co.uk/news/technology-58645547",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/117D4/production/_120663617_instagram-blur-v3.jpg",
+            "publishedAt": "2021-09-23T11:26:22Z",
+            "content": "image captionThe BBC found women illegally bought and sold as domestic workers\r\nApple threatened to remove Facebook's products from its App Store, after the BBC found domestic \"slaves\" for sale on ap… [+4112 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": null,
+            "title": "Australia's Commonwealth Bank mocks Apple's 'pro-competition' claim - Reuters",
+            "description": "Commonwealth Bank of Australia <a href=\"https://www.reuters.com/companies/CBA.AX\" target=\"_blank\">(CBA.AX)</a>, the country's largest lender, accused Apple Inc <a href=\"https://www.reuters.com/companies/AAPL.O\" target=\"_blank\">(AAPL.O)</a> on Thursday of unco…",
+            "url": "https://www.reuters.com/technology/australias-commonwealth-bank-mocks-apples-pro-competition-claim-2021-09-23/",
+            "urlToImage": "https://www.reuters.com/resizer/tSx9o1mKtWwvGr4irXAyOdcWS2k=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/IVHV4QGFOBM2LJERI36RG7DWW4.jpg",
+            "publishedAt": "2021-09-23T04:33:00Z",
+            "content": "A customer holds the iPhone X during the global launch of the new Apple product in central Sydney, Australia, November 3, 2017. REUTERS/David GraySYDNEY, Sept 23 (Reuters) - Commonwealth Bank of Aust… [+2029 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": null,
+            "title": "EU plans one mobile charging port for all, in setback for Apple - Reuters",
+            "description": "The European Union aims to have a common charging port for mobile phones, tablets and headphones under a European Commission proposal presented on Thursday in a world first, with the move impacting iPhone maker Apple <a href=\"https://www.reuters.com/companies…",
+            "url": "https://www.reuters.com/business/media-telecom/eu-plans-one-mobile-charging-port-all-setback-apple-2021-09-23/",
+            "urlToImage": "https://www.reuters.com/resizer/ay_1fgfXbg5erTRvkIrhLTk-eck=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/4KHMLQD47VP3RIKG7TLTY7T7LM.jpg",
+            "publishedAt": "2021-09-23T11:25:00Z",
+            "content": "A view of a harmonised mobile phone charger is seen during a news conference at the European Commission headquarters in Brussels February 8, 2011. REUTERS/Francois Lenoir BRUSSELS, Sept 23 (Reuters) … [+2533 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": null,
+            "title": "EXCLUSIVE U.S. and EU look to work more closely in regulating Big Tech at summit - Reuters",
+            "description": "The United States and European Union plan to take a more unified approach to limit the growing market power of Big Tech companies, according to a draft memo seen by Reuters.",
+            "url": "https://www.reuters.com/technology/exclusive-us-eu-look-work-more-closely-regulating-big-tech-summit-2021-09-23/",
+            "urlToImage": "https://www.reuters.com/resizer/n-pBnyxufNGkcRSi7K692qLbU_o=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/P7IJJS7BZBORTOABBIOFOFQRAA.jpg",
+            "publishedAt": "2021-09-23T12:04:00Z",
+            "content": "WASHINGTON, Sept 23 (Reuters) - The United States and European Union plan to take a more unified approach to limit the growing market power of Big Tech companies, according to a draft memo seen by Re… [+3849 chars]"
+        },
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": null,
+            "title": "White House seeks to address semiconductor chips crisis harming automakers - Reuters",
+            "description": "The White House will discuss ways to overcome a semiconductor chip supply crisis that is cutting auto production around the world in a new round of meetings with major companies on Thursday.",
+            "url": "https://www.reuters.com/technology/white-house-seeks-address-semiconductor-chips-crisis-harming-automakers-2021-09-23/",
+            "urlToImage": "https://www.reuters.com/resizer/CWtFcVP_24nPTjvV2UunU2Vo_-E=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/QRDV4OEKVFLR5GPGBNALTOKYVI.jpg",
+            "publishedAt": "2021-09-23T09:14:00Z",
+            "content": "U.S. President Joe Biden holds a semiconductor chip as he speaks prior to signing an executive order, aimed at addressing a global semiconductor chip shortage, in the State Dining Room at the White H… [+3245 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Android Central"
+            },
+            "author": "Jerry Hildenbrand",
+            "title": "The Microsoft Surface Duo 2 is the best foldable you're not going to buy",
+            "description": "An impressive upgrade with none of the appeal of its competition.\n\nMicrosoft took the wraps off its 2021 lineup, and of course, that includes an Android phone — the Surface Duo 2. The introduction of the device was a slick affair and spent plenty of time tell…",
+            "url": "https://www.androidcentral.com/microsoft-surface-duo-2-best-foldable-youre-not-going-buy",
+            "urlToImage": "https://www.androidcentral.com/sites/androidcentral.com/files/styles/large/public/article_images/2021/09/surface-duo-2-hero-1.jpg",
+            "publishedAt": "2021-09-23T11:30:02Z",
+            "content": "Source: Daniel Rubino / Android Central\r\nMicrosoft took the wraps off its 2021 lineup, and of course, that includes an Android phone the Surface Duo 2. The introduction of the device was a slick affa… [+4207 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "The Guardian"
+            },
+            "author": "Jess Cartner-Morley",
+            "title": "Release the rainbow! Why red, blue, yellow, pink and orange are the new black",
+            "description": "What’s the hot new colour, according to London fashion week? Anything you want, so long as it’s bright and bold. And the more you mix things up, the betterAt first I thought London fashion week was going to be all about parma violet. “Did you know purple flow…",
+            "url": "https://amp.theguardian.com/fashion/2021/sep/23/release-the-rainbow-why-red-blue-yellow-pink-and-orange-are-the-new-black",
+            "urlToImage": "https://i.guim.co.uk/img/media/c696094a8e1ee70f62113f12cab6a6390b9aa4c2/7_0_8008_4808/master/8008.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ffb4ffd9e220eda710ea7981fd64f051",
+            "publishedAt": "2021-09-23T09:00:44Z",
+            "content": "At first I thought London fashion week was going to be all about parma violet. Did you know purple flowers attract the most bees? Roland Mouret asked, as I stroked a low-backed silk blouse in pale, l… [+6903 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "The Guardian"
+            },
+            "author": "Donald McRae",
+            "title": "Frank Smith: ‘I called Eddie Hearn tight – eventually he gave me a job’",
+            "description": "Matchroom’s head of boxing, a key figure in organising Anthony Joshua v Oleksandr Usyk, began as the office tea-boy 13 years agoOn Saturday night, amid the bedlam of a sold-out crowd of 60,000 as Oleksandr Usyk and Anthony Joshua make their extravagant ring w…",
+            "url": "https://amp.theguardian.com/sport/2021/sep/23/frank-smith-i-called-eddie-hearn-tight-eventually-he-gave-me-a-job",
+            "urlToImage": "https://i.guim.co.uk/img/media/430a4bc756ac9b61f2b748a4288554dbfe805663/0_318_6720_4032/master/6720.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ff16df52ce90aef393fd0a0759e134ad",
+            "publishedAt": "2021-09-23T09:00:44Z",
+            "content": "On Saturday night, amid the bedlam of a sold-out crowd of 60,000 as Oleksandr Usyk and Anthony Joshua make their extravagant ring walks at the Tottenham Hotspur Stadium, Frank Smith will keep scannin… [+9797 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Zacks.com"
+            },
+            "author": "Nalak Das",
+            "title": "Fed Gives Bond-Buy Tapering Signal Without Timeline: 5 Picks",
+            "description": "We have narrowed down our search to five U.S. corporate behemoths that have strong growth potential for the rest of 2021. These are: AAPL, MSFT, NVDA,...",
+            "url": "http://www.zacks.com/stock/news/1799919/fed-gives-bond-buy-tapering-signal-without-timeline-5-picks?cid=CS-ENTREPRENEUR-FT-analyst_blog|investment_ideas-1799919",
+            "urlToImage": "https://assets.entrepreneur.com/providers/zacks/hero-image-zacks-387245.jpeg",
+            "publishedAt": "2021-09-23T10:41:00Z",
+            "content": "On Sep 22, Wall Street closed sharply higher ending its 4-day losing streak and recouped some of the losses it has suffered in September. The three major stock indexes the Dow, the S&amp;P 500 and th… [+8632 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Zacks.com"
+            },
+            "author": "Zacks Equity Research",
+            "title": "The Zacks Analyst Blog Highlights: United Parcel Service, ServiceNow, CVS Health, Booking Holdings and Altria Group",
+            "description": "The Zacks Analyst Blog Highlights: United Parcel Service, ServiceNow, CVS Health, Booking Holdings and Altria Group",
+            "url": "http://www.zacks.com/stock/news/1799888/the-zacks-analyst-blog-highlights-united-parcel-service-servicenow-cvs-health-booking-holdings-and-altria-group?cid=CS-ENTREPRENEUR-FT-press_releases-1799888",
+            "urlToImage": "https://assets.entrepreneur.com/providers/zacks/hero-image-zacks-387242.jpeg",
+            "publishedAt": "2021-09-23T10:47:00Z",
+            "content": "For Immediate Release\r\nChicago, IL September 23, 2021 Zacks.com announces the list of stocks featured in the Analyst Blog. Every day the Zacks Equity Research analysts discuss the latest news and eve… [+5314 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Zacks.com"
+            },
+            "author": "Zacks Equity Research",
+            "title": "Here's What Makes Chemours (CC) Stock A Solid Bet Right Now",
+            "description": "Chemours (CC) benefits from demand revival across all markets, strong execution and its cost-reduction actions.",
+            "url": "http://www.zacks.com/stock/news/1799918/here-s-what-makes-chemours-cc-stock-a-solid-bet-right-now?cid=CS-ENTREPRENEUR-FT-analyst_blog|rank_focused-1799918",
+            "urlToImage": "https://assets.entrepreneur.com/providers/zacks/hero-image-zacks-387246.jpeg",
+            "publishedAt": "2021-09-23T10:40:00Z",
+            "content": "The Chemours CompanyCC is benefiting from higher demand for Opteon in mobile applications, strong execution and cost-cutting measures. We are positive on the companys prospects and believe that the t… [+4737 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Zacks.com"
+            },
+            "author": "Zacks Equity Research",
+            "title": "What's in the Offing for Micron Technology's (MU) Q4 Earnings?",
+            "description": "Micron's (MU) Q4 results likely to reflect benefits from significant memory chip demand from data-center operators and PC manufacturers amid the pande...",
+            "url": "http://www.zacks.com/stock/news/1799909/what-s-in-the-offing-for-micron-technology-s-mu-q4-earnings?cid=CS-ENTREPRENEUR-FT-analyst_blog|earnings_preview-1799909",
+            "urlToImage": "https://assets.entrepreneur.com/providers/zacks/hero-image-zacks-387249.jpeg",
+            "publishedAt": "2021-09-23T10:38:00Z",
+            "content": "Micron TechnologyMU is scheduled to report fourth-quarter fiscal 2021 results on Sep 28.\r\nThe company projects fiscal fourth-quarter adjusted earnings to be $2.30 (+/- 10 cents) per share. The Zacks … [+4521 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Zacks.com"
+            },
+            "author": "Zacks Equity Research",
+            "title": "The Zacks Analyst Blog Highlights: SPYV, SCHV, VTV, MGV, VONV and VOOV",
+            "description": "The Zacks Analyst Blog Highlights: SPYV, SCHV, VTV, MGV, VONV and VOOV",
+            "url": "http://www.zacks.com/stock/news/1799885/the-zacks-analyst-blog-highlights-spyv-schv-vtv-mgv-vonv-and-voov?cid=CS-ENTREPRENEUR-FT-press_releases-1799885",
+            "urlToImage": "https://assets.entrepreneur.com/providers/zacks/hero-image-zacks-387243.jpeg",
+            "publishedAt": "2021-09-23T10:45:00Z",
+            "content": "For Immediate Release\r\nChicago, IL September 23, 2021 Zacks.com announces the list of ETFs featured in the Analyst Blog. Every day the Zacks Equity Research analysts discuss the latest news and event… [+7336 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Zacks.com"
+            },
+            "author": "Zacks Equity Research",
+            "title": "The Zacks Analyst Blog Highlights: Moderna, Quanta Services, Avantor, ON Semiconductor and KLA",
+            "description": "The Zacks Analyst Blog Highlights: Moderna, Quanta Services, Avantor, ON Semiconductor and KLA",
+            "url": "http://www.zacks.com/stock/news/1799882/the-zacks-analyst-blog-highlights-moderna-quanta-services-avantor-on-semiconductor-and-kla?cid=CS-ENTREPRENEUR-FT-press_releases-1799882",
+            "urlToImage": "https://assets.entrepreneur.com/providers/zacks/hero-image-zacks-387244.jpeg",
+            "publishedAt": "2021-09-23T10:44:00Z",
+            "content": "For Immediate Release\r\nChicago, IL September 23, 2021 Zacks.com announces the list of stocks featured in the Analyst Blog. Every day the Zacks Equity Research analysts discuss the latest news and eve… [+10660 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Zacks.com"
+            },
+            "author": "Maharathi Basu",
+            "title": "5 Broker-Friendly Stocks to Buy Amid the Current Market Crisis",
+            "description": "Investors should add broker-friendly stocks like Best Buy (BBY), Peabody Energy (BTU), Citi Trends (CTRN), Caleres (CAL) and Commercial Metals (CMC) t...",
+            "url": "http://www.zacks.com/stock/news/1799926/5-broker-friendly-stocks-to-buy-amid-the-current-market-crisis?cid=CS-ENTREPRENEUR-FT-analyst_blog|rw-1799926",
+            "urlToImage": "https://assets.entrepreneur.com/providers/zacks/hero-image-zacks-387241.jpeg",
+            "publishedAt": "2021-09-23T10:49:00Z",
+            "content": "The crisis triggered by fears over the potential collapse of a debt-ridden Evergrande Group has shaken the global stock markets. As a result of this cascading effect of the troubles in Chinas propert… [+8272 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "MacRumors"
+            },
+            "author": "Hartley Charlton",
+            "title": "EU Proposes to Force Apple to Switch iPhone, iPad, and AirPods From Lightning to USB-C",
+            "description": "The European Commission has presented legislation that would compell Apple to use a USB-C port on all iPhones, iPads, and AirPods (via Reuters).\n\n\n\n\n\nThe proposal would force all consumer electronics manufacturers who sell devices in Europe to ensure that all…",
+            "url": "https://www.macrumors.com/2021/09/23/eu-proposes-to-force-apple-to-switch-to-usb-c/",
+            "urlToImage": "https://images.macrumors.com/t/ublxkFM963AJrDo_8EM26evSD_g=/2500x/https://images.macrumors.com/article-new/2021/03/Apple-Prefer-Lightning-Over-USB-C-Feature.jpg",
+            "publishedAt": "2021-09-23T11:57:00Z",
+            "content": "The European Commission has presented legislation that would compell Apple to use a USB-C port on all iPhones, iPads, and AirPods (via Reuters).\r\nThe proposal, known as a directive, would force all c… [+1727 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "MacRumors"
+            },
+            "author": "Sami Fathi",
+            "title": "First Look Inside iPhone 13 Reveals Revamped TrueDepth System, Smaller Taptic Engine, and Larger Battery",
+            "description": "New images offering us our first real-world look inside the new iPhone 13 have revealed a smaller Taptic Engine, a larger battery, and revamped components of the TrueDepth camera system.\n\n\n\n\n\nThe ‌iPhone 13‌ lineup will start arriving at customers on Friday, …",
+            "url": "https://www.macrumors.com/2021/09/23/iphone-13-images-taptic-engine-larger-battery/",
+            "urlToImage": "https://images.macrumors.com/t/nw2XFlLoluO_DwirEThFlHAwgY4=/1600x/https://images.macrumors.com/article-new/2021/09/iphone-13-internal-images-notch.jpg",
+            "publishedAt": "2021-09-23T11:09:10Z",
+            "content": "New images offering us our first real-world look inside the new iPhone 13 have revealed a smaller Taptic Engine, a larger battery, and revamped components of the TrueDepth camera system.\r\nThe ‌iPhone… [+1475 chars]"
+        },
+        {
+            "source": {
+                "id": "business-insider",
+                "name": "Business Insider"
+            },
+            "author": "jerb@insider.com (Jordan Parker Erb)",
+            "title": "10 things in tech you need to know today",
+            "description": "Facebook's CTO is stepping down and Tim Cook wants Apple employees to stop leaking memos: 10 things in tech you need to know today.",
+            "url": "https://www.businessinsider.com/10-things-in-tech-you-need-to-know-today-23-2021-9",
+            "urlToImage": "https://i.insider.com/614babcdde0e7b00194be7f2?width=1200&format=jpeg",
+            "publishedAt": "2021-09-23T10:00:00Z",
+            "content": "Good morning and welcome to 10 Things in Tech. If this was forwarded to you, sign up here. Plus, download Insider's app for news on the go click here for iOS and here for Android.\r\nLet's get started.… [+3013 chars]"
+        }
+    ]
+}

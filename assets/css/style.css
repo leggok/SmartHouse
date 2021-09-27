@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #fff;
+  display: flex;
+  font-family: "Lato", sans-serif;
+}
+
+header {
+  background-color: #F2F2F7;
+  width: 100px;
+  min-width: 100px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 24px;
+}
+
+.menu_list_item {
+  margin: 10px 0;
+  width: 100%;
+}
+
+.menu_list_item a {
+  width: 56px;
+  height: 56px;
+  text-align: center;
+  display: flex;
+  padding: 20px 0;
+  color: #000;
+  transition: all 0.2s ease;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+.menu_list_item a:hover {
+  color: #fff;
+  background-color: #993D3A;
+  box-shadow: 0px 8px 24px rgba(234, 124, 105, 0.32);
+  fill: #fff;
+}
+
+.active {
+  color: #fff;
+  background-color: #993D3A;
+  box-shadow: 0px 8px 24px rgba(234, 124, 105, 0.32);
+  fill: #fff;
+}
+
+main {
+  padding-top: 24px;
+  display: flex;
+}
+
+.left {
+  width: 60%;
+}
+
+.wellcome {
+  display: flex;
+}
+
+.right {
+  width: 38%;
+}
+
+.hw, .time, .wellcome {
+  font-size: 24px;
+  font-weight: 700;
+  margin-right: 4px;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.members_list {
+  display: flex;
+}
+.members_list_item {
+  margin-right: 12px;
+}
+.members_list_item:last-child {
+  margin-right: 0;
+}
+.members_list_item a {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+}
+
+.ava {
+  display: inline-block;
+  border-radius: 50%;
+  padding: 9px 13px;
+  text-transform: uppercase;
+  background-color: #e8aef7;
+}
+
+.rooms_wrap {
+  margin-bottom: 16px;
+}
+
+.rooms {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(192px, 1fr));
+}
+.rooms_item {
+  width: 192px;
+  height: 140px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s ease;
+}
+.rooms_item:hover {
+  box-shadow: 0px 4px 4px #6A1616;
+  cursor: pointer;
+}
+
+.todo_list {
+  display: flex;
+}
+.todo_list_item {
+  transition: all 0.2s ease;
+}
+.todo_list_item:hover {
+  transform: scale(1.05);
+}
+.todo_list .done {
+  color: #fff;
+  background-color: #85c144;
+}
+.todo_list a {
+  margin: 4px;
+  background-color: #efefef;
+  color: #000;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+svg {
+  width: 40px;
+  height: 30px;
+}
+
+.rooms_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.rooms_item:hover a {
+  color: #6A1616;
+}
+.rooms_item:hover use {
+  fill: #6A1616;
+}
+.rooms_item a {
+  margin: 5px 0;
+  color: #000;
+  font-weight: 700;
+}
+.rooms_item span {
+  font-size: 14px;
+  color: #ABBBC2;
+}
+.rooms_item svg {
+  width: 48px;
+  height: 48px;
+}
+
+.right_top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather, .date {
+  width: 49%;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0px 8px 24px rgba(187, 187, 187, 0.32);
+}
+.weather_title, .date_title {
+  margin-bottom: 8px;
+}
+.weather_show, .date_show {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 40px;
+}
+.weather_show_icon svg, .date_show_icon svg {
+  width: 71px;
+  height: 46px;
+}
+.weather_day, .date_day {
+  text-align: start;
+  font-size: 24px;
+}
+.weather_day_week, .date_day_week {
+  text-align: end;
+  font-size: 22px;
+}
+
+/* members.html */
+.main_title {
+  margin-bottom: 10px;
+}
+
+.members_list_item {
+  text-transform: uppercase;
+  border: 1px solid #ABBBC2;
+  border-radius: 10px;
+  width: 250px;
+  height: 350px;
+  box-shadow: 0px 8px 24px rgba(187, 187, 187, 0.32);
+}
+.members_list_item_link > *:not(:first-child) {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.member_img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+  height: 150px;
+  background-color: #ABBBC2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.member_name {
+  font-size: 20px;
+  font-weight: 700;
+}
+.member_login {
+  font-size: 24px;
+  color: #ABBBC2;
+}
+.member_status {
+  position: relative;
+}
+.member_status:after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 14px;
+  right: 70px;
+  background-color: #85c144;
+}
