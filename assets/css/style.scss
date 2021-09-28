@@ -543,6 +543,12 @@ main {
         justify-content: center;
         align-items: center;
     }
+    &_right{
+        padding: 0 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;        
+    }
 
     &_img>img {
         border-radius: 20px;
@@ -552,8 +558,13 @@ main {
     &_login {
         margin: 10px 0;
     }
+    &_sub_title{
+        margin-bottom: 20px;
+    }
 }
-
+.phone_title, .birthday_title{
+    margin: 20px 0 0; 
+}
 .profile_birthday_form {
     padding: 15px;
 }
@@ -574,3 +585,5 @@ select {
 .dn {
     display: none;
 }
+
+/*login.html*/
