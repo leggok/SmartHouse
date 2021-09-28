@@ -63,48 +63,56 @@
             </div>
         </header>
         <main class="profile">
-            <section class="profile_left">
-                <div class="profile_img">
-                    <img src="assets/img/members/f.jpg" alt="">
+            <div class="top">
+                <div class="main_title hw">
+                    Profile
                 </div>
-                <div class="profile_name title">
-                    Dwayne "Rock" Johnson
-                </div>
-                <div class="profile_position">Position: Admin</div>
-                <div class="profile_login">Login: @rock</div>
-                <div class="profile_status member_status">Status: At home</div>
-            </section>
-            <section class="profile_right">
-                <div class="profile_title title">Description</div>
-                <div class="profile_sub_title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, dicta! Repellendus voluptates impedit perferendis esse fugit? Nesciunt explicabo nisi error qui a, distinctio ab vel! Non quibusdam qui amet repellendus.</div>
-                <a id='change_descr' href="#">Change</a>
-                <div class="profile_descr">
-                    <form action="#" onsubmit="change_descr()" class="form_descr">
-                        <textarea name="description" id="profile_change_descr" placeholder="Change status" cols="30" rows="10"></textarea>
-                        <button type="submit">OK</button>
-                    </form>
-                </div>
-                <div class="profile_phone">
-                    <div class="phone_title title">Phone</div>
-                    <div class="phone_number">+380999999999</div>
-                    <a id='change_phone' href="#">Change</a>
-                    <form action="#" onsubmit="change_phone()" class="form_phone">
-                        <input type="text" name="phone" placeholder="Phone">
-                        <button type="submit">OK</button>
-                    </form>
-                </div>
-                <div class="birthday_title title">Birthday</div>
-                <div class="profile_birthday">
-                    <form class="profile_birthday_form">
-                        <label>Birthday:
-                        </label>
-                        <select id="year" name="yyyy" onchange="change_year(this)"></select>
-                        <select id="month" name="mm" onchange="change_month(this)"></select>
-                        <select id="day" name="dd"></select>
-                    </form>
-
-                </div>
-            </section>
+                <div class="time">16:23:01</div>
+            </div>
+            <div class="bot">
+                <section class="profile_left">
+                    <div class="profile_img">
+                        <img src="assets/img/members/f.jpg" alt="">
+                    </div>
+                    <div class="profile_name title">
+                        Dwayne "Rock" Johnson
+                    </div>
+                    <div class="profile_position">Position: Admin</div>
+                    <div class="profile_login">Login: @rock</div>
+                    <div class="profile_status member_status">Status: At home</div>
+                </section>
+                <section class="profile_right">
+                    <div class="profile_title title">Description</div>
+                    <div class="profile_sub_title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, dicta! Repellendus voluptates impedit perferendis esse fugit? Nesciunt explicabo nisi error qui a, distinctio ab vel! Non quibusdam qui amet repellendus.</div>
+                    <a id='change_descr' href="#">Change</a>
+                    <div class="profile_descr">
+                        <form action="#" onsubmit="change_descr()" class="form_descr">
+                            <textarea name="description" id="profile_change_descr" placeholder="Change status" cols="30" rows="10"></textarea>
+                            <button type="submit">OK</button>
+                        </form>
+                    </div>
+                    <div class="profile_phone">
+                        <div class="phone_title title">Phone</div>
+                        <div class="phone_number">+380999999999</div>
+                        <a id='change_phone' href="#">Change</a>
+                        <form action="#" onsubmit="change_phone()" class="form_phone">
+                            <input type="text" name="phone" placeholder="Phone">
+                            <button type="submit">OK</button>
+                        </form>
+                    </div>
+                    <div class="birthday_title title">Birthday</div>
+                    <div class="profile_birthday">
+                        <form class="profile_birthday_form">
+                            <label>Birthday:
+                            </label>
+                            <select id="year" name="yyyy" onchange="change_year(this)"></select>
+                            <select id="month" name="mm" onchange="change_month(this)"></select>
+                            <select id="day" name="dd"></select>
+                        </form>
+    
+                    </div>
+                </section>
+            </div>
         </main>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

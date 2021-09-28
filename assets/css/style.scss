@@ -533,7 +533,7 @@ main {
 
 /*profile.html*/
 .profile {
-    display: flex;
+    
 
     &_left {
         margin-right: 10px;
@@ -543,11 +543,12 @@ main {
         justify-content: center;
         align-items: center;
     }
-    &_right{
+
+    &_right {
         padding: 0 40px;
         display: flex;
         flex-direction: column;
-        justify-content: center;        
+        justify-content: center;
     }
 
     &_img>img {
@@ -558,13 +559,19 @@ main {
     &_login {
         margin: 10px 0;
     }
-    &_sub_title{
+
+    &_sub_title {
         margin-bottom: 20px;
     }
 }
-.phone_title, .birthday_title{
-    margin: 20px 0 0; 
+.bot{
+    display: flex;
 }
+.phone_title,
+.birthday_title {
+    margin: 20px 0 0;
+}
+
 .profile_birthday_form {
     padding: 15px;
 }
@@ -587,3 +594,63 @@ select {
 }
 
 /*login.html*/
+
+.login_page {
+    background-color: #993D3A;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &>.title {
+        font-size: 40px;
+        color: #fff;
+    }
+}
+
+.sign>form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    &>input {
+        margin: 10px 0;
+        width: 500px;
+        height: 50px;
+        background-color: transparent;
+        border: 2px solid #fff;
+        padding: 10px;
+        color: #fff;
+
+        &::placeholder {
+            color: #fff;
+        }
+    }
+
+    &>button {
+        background-color: #fff;
+        height: 50px;
+        color: #993D3A;
+        border: 2px solid transparent;
+        transition: all .2s ease;
+
+        &:hover {
+            cursor: pointer;
+            border-color: #fff;
+            color: #fff;
+            background-color: #993D3A;
+        }
+    }
+}
