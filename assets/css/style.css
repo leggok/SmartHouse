@@ -509,12 +509,25 @@ main {
   justify-content: center;
   align-items: center;
 }
+.profile_right {
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .profile_img > img {
   border-radius: 20px;
   width: 300px;
 }
 .profile_login {
   margin: 10px 0;
+}
+.profile_sub_title {
+  margin-bottom: 20px;
+}
+
+.phone_title, .birthday_title {
+  margin: 20px 0 0;
 }
 
 .profile_birthday_form {
@@ -537,3 +550,5 @@ select {
 .dn {
   display: none;
 }
+
+/*login.html*/
