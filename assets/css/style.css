@@ -95,6 +95,10 @@ main {
   margin-right: 4px;
 }
 
+.time {
+  margin-bottom: 10px;
+}
+
 .title {
   margin-bottom: 20px;
   font-size: 20px;
@@ -116,12 +120,12 @@ main {
   color: #000;
 }
 
-.ava {
-  display: inline-block;
+.ava > img {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
-  padding: 9px 13px;
-  text-transform: uppercase;
-  background-color: #e8aef7;
+  object-fit: cover;
 }
 
 .rooms_wrap {
@@ -257,28 +261,39 @@ svg {
 
 main {
   display: block;
-  max-width: calc(100% - 149px);
+  max-width: calc(100% - 124px);
 }
 
 .member_img {
   width: 250px;
-  border-radius: 10px 10px 0 0;
   height: 150px;
+  margin-bottom: 10px;
   background-color: #ABBBC2;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 10px 10px 0 0;
+}
+.member_img > img {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .member_name {
   font-size: 20px;
   font-weight: 700;
+  padding-left: 10px;
 }
 .member_login {
   font-size: 24px;
   color: #ABBBC2;
+  margin: 10px 0;
+  padding-left: 10px;
 }
 .member_status {
   position: relative;
+  padding-left: 10px;
 }
 .member_status:after {
   content: "";
@@ -289,6 +304,27 @@ main {
   background-color: #85c144;
 }
 
+.members_news {
+  margin: 0;
+}
+
+.member_card {
+  border-radius: 10px;
+  height: 300px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.member_card:hover {
+  box-shadow: 0px 4px 8px #ef5454;
+}
+
+.swiper-pagination-progressbar-fill {
+  background-color: #ef5454;
+}
+
+.swiper-button-next, .swiper-rtl, .swiper-button-prev {
+  color: #ef5454;
+}
+
 .members_list_item_link {
   display: flex !important;
   flex-direction: column;
@@ -296,7 +332,7 @@ main {
   color: #000;
 }
 .members_list_item_link > div {
-  margin: 10px 0;
+  margin: 30px 0;
 }
 
 .news {
@@ -306,7 +342,6 @@ main {
 /* rooms.html */
 .main_rooms {
   display: flex;
-  align-items: center;
 }
 
 .room_carousel_img {
@@ -424,4 +459,36 @@ main {
 .room_carousel_list {
   width: 40%;
   overflow-y: auto;
+}
+
+.memberSwiper .swiper-slide {
+  padding: 0;
+}
+
+.main_rooms .swiper-slide {
+  padding: 60px 0 265px;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.swiper-button-next {
+  right: 0;
+}
+
+.swiper-button-prev {
+  left: 0;
+}
+
+.main_rooms {
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  padding-top: 24px;
 }
