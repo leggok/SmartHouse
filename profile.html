@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="assets/css/style.min.css">
+    </head>
+    <body>
+        <header>
+            <div class="menu">
+                <ul class="menu_list">
+                    <li class="menu_list_item">
+                        <a href="index.html">
+                            <svg>
+                                <use xlink:href="assets/img/sprite.svg#home"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="menu_list_item">
+                        <a href="#">
+                            <svg>
+                                <use xlink:href="assets/img/sprite.svg#placeholder"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="menu_list_item">
+                        <a href="rooms.html">
+                            <svg>
+                                <use xlink:href="assets/img/sprite.svg#room"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="menu_list_item">
+                        <a href="members.html" class="active">
+                            <svg>
+                                <use xlink:href="assets/img/sprite.svg#comm"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="menu_list_item">
+                        <a href="profile.html">
+                            <svg>
+                                <use xlink:href="assets/img/sprite.svg#vector"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="menu_list_item">
+                        <a href="#">
+                            <svg>
+                                <use xlink:href="assets/img/sprite.svg#logout"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <main class="profile">
+            <section class="profile_left">
+                <div class="profile_img">
+                    <img src="assets/img/members/f.jpg" alt="">
+                </div>
+                <div class="profile_name title">
+                    Dwayne "Rock" Johnson
+                </div>
+                <div class="profile_position">Position: Admin</div>
+                <div class="profile_login">Login: @rock</div>
+                <div class="profile_status member_status">Status: At home</div>
+            </section>
+            <section class="profile_right">
+                <div class="profile_sub_title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, dicta! Repellendus voluptates impedit perferendis esse fugit? Nesciunt explicabo nisi error qui a, distinctio ab vel! Non quibusdam qui amet repellendus.</div>
+                <a id='change_descr' href="#">Change</a>
+                <div class="profile_descr">
+                    <form action="#" onsubmit="change_descr()" class="form_descr">
+                        <textarea name="description" id="profile_change_descr" placeholder="Change status" cols="30" rows="10"></textarea>
+                        <button type="submit">OK</button>
+                    </form>
+                </div>
+                <div class="profile_phone">
+                    <div class="phone_number">+380999999999</div>
+                    <a id='change_phone' href="#">Change</a>
+                    <form action="#" onsubmit="change_phone()" class="form_phone">
+                        <input type="text" name="phone" placeholder="Phone">
+                        <button type="submit">OK</button>
+                    </form>
+                </div>
+                <div class="profile_birthday">
+                    <form class="profile_birthday_form">
+                        <label>Birthday:
+                        </label>
+                        <select id="year" name="yyyy" onchange="change_year(this)"></select>
+                        <select id="month" name="mm" onchange="change_month(this)"></select>
+                        <select id="day" name="dd"></select>
+                    </form>
+
+                </div>
+            </section>
+        </main>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+        <script>
+            $('.todo_list_item_link').click(function (e) {
+                e.preventDefault();
+                $(this).toggleClass('done')
+            })
+            function Timer() {
+                var dt = new Date()
+                let minutes = 0
+                $('.time').text(dt.getHours() + ":" + dt.getMinutes() + ":" + dt.getSeconds());
+                setTimeout("Timer()", 1000);
+            }
+            Timer();
+            var swiper = new Swiper(".memberSwiper", {
+                slidesPerView: 4,
+                grabCursor: true,
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev"
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    type: "progressbar"
+                }
+            });
+            function change_descr() {
+                $('.profile_sub_title').text($('#profile_change_descr').val());
+                $('.form_descr').toggleClass('db')
+            }
+            $('#change_descr').click(function (e) {
+                e.preventDefault();
+                $('.form_descr').toggleClass('db')
+            })
+            function change_phone() {
+                $('.phone_number').text($('.form_phone input').val());
+                $('.form_phone').toggleClass('db')
+            }
+            $('#change_phone').click(function (e) {
+                e.preventDefault();
+                $('.form_phone').toggleClass('db')
+            })
+
+
+            var Days = [
+                31,
+                28,
+                31,
+                30,
+                31,
+                30,
+                31,
+                31,
+                30,
+                31,
+                30,
+                31
+            ]; // index => month [0-11]
+            $(document).ready(function () {
+                var option = '<option value="day">day</option>';
+                var selectedDay = "day";
+                for (var i = 1; i <= Days[0]; i++) { // add option days
+                    option += '<option value="' + i + '">' + i + '</option>';
+                }
+                $('#day').append(option);
+                $('#day').val(selectedDay);
+
+                var option = '<option value="month">month</option>';
+                var selectedMon = "month";
+                for (var i = 1; i <= 12; i++) {
+                    option += '<option value="' + i + '">' + i + '</option>';
+                }
+                $('#month').append(option);
+                $('#month').val(selectedMon);
+
+                var option = '<option value="month">month</option>';
+                var selectedMon = "month";
+                for (var i = 1; i <= 12; i++) {
+                    option += '<option value="' + i + '">' + i + '</option>';
+                }
+                $('#month2').append(option);
+                $('#month2').val(selectedMon);
+
+                var d = new Date();
+                var option = '<option value="year">year</option>';
+                selectedYear = "year";
+                for (var i = 1930; i <= d.getFullYear(); i++) { // years start i
+                    option += '<option value="' + i + '">' + i + '</option>';
+                }
+                $('#year').append(option);
+                $('#year').val(selectedYear);
+            });
+            function isLeapYear(year) {
+                year = parseInt(year);
+                if (year % 4 != 0) {
+                    return false;
+                } else if (year % 400 == 0) {
+                    return true;
+                } else if (year % 100 == 0) {
+                    return false;
+                } else {
+                    return true;
+                }
+            }
+
+            function change_year(select) {
+                if (isLeapYear($(select).val())) {
+                    Days[1] = 29;
+
+                } else {
+                    Days[1] = 28;
+                }
+                if ($("#month").val() == 2) {
+                    var day = $('#day');
+                    var val = $(day).val();
+                    $(day).empty();
+                    var option = '<option value="day">day</option>';
+                    for (var i = 1; i <= Days[1]; i++) { // add option days
+                        option += '<option value="' + i + '">' + i + '</option>';
+                    }
+                    $(day).append(option);
+                    if (val > Days[month]) {
+                        val = 1;
+                    }
+                    $(day).val(val);
+                }
+            }
+
+            function change_month(select) {
+                var day = $('#day');
+                var val = $(day).val();
+                $(day).empty();
+                var option = '<option value="day">day</option>';
+                var month = parseInt($(select).val()) - 1;
+                for (var i = 1; i <= Days[month]; i++) { // add option days
+                    option += '<option value="' + i + '">' + i + '</option>';
+                }
+                $(day).append(option);
+                if (val > Days[month]) {
+                    val = 1;
+                }
+                $(day).val(val);
+            }
+        </script>
+    </body>
+</html>

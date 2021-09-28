@@ -321,7 +321,9 @@ main {
   background-color: #ef5454;
 }
 
-.swiper-button-next, .swiper-rtl, .swiper-button-prev {
+.swiper-button-next,
+.swiper-rtl,
+.swiper-button-prev {
   color: #ef5454;
 }
 
@@ -435,7 +437,8 @@ main {
   color: #6A1616;
 }
 
-.fridge svg, .microwave svg {
+.fridge svg,
+.microwave svg {
   width: 60px;
   height: 60px;
 }
@@ -469,7 +472,8 @@ main {
   padding: 60px 0 265px;
 }
 
-.swiper-button-next:after, .swiper-button-prev:after {
+.swiper-button-next:after,
+.swiper-button-prev:after {
   font-size: 28px;
   font-weight: 700;
 }
@@ -491,4 +495,45 @@ main {
   display: flex;
   flex-direction: column;
   padding-top: 24px;
+}
+
+/*profile.html*/
+.profile {
+  display: flex;
+}
+.profile_left {
+  margin-right: 10px;
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profile_img > img {
+  border-radius: 20px;
+  width: 300px;
+}
+.profile_login {
+  margin: 10px 0;
+}
+
+.profile_birthday_form {
+  padding: 15px;
+}
+
+select {
+  padding: 5px;
+}
+
+.form_phone,
+.form_descr {
+  display: none;
+}
+
+.db {
+  display: block;
+}
+
+.dn {
+  display: none;
 }
