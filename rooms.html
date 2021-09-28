@@ -10,6 +10,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
         <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
         <link rel="stylesheet" href="assets/css/style.min.css">
     </head>
     <body>
@@ -62,53 +63,143 @@
             </div>
         </header>
         <main class="main_rooms">
-            <div class="room_carousel">
-                <div class="room_carousel_img"></div>
-                <div class="room_carousel_content">
-                    <div class="room_carousel_name title">Kitchen</div>
-                    <div class="boxes">
-                        <div class="inside">
-                            <div class="where">This room</div>
-                            <div class="vars">
-                                <div class="temp">                                
-                                    <div class="room_carousel_temperature-word">Temp</div>
-                                    <div class="room_carousel_temperature-number">20C</div>
+            <div class="room_carousel swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="room_carousel_img">
+                            <img src="assets/img/rooms/kitchen.jpg" alt="kitchen">
+                        </div>
+                        <div class="room_carousel_content">
+                            <div class="room_carousel_name title">Kitchen</div>
+                            <div class="boxes">
+                                <div class="inside">
+                                    <div class="where">This room</div>
+                                    <div class="vars">
+                                        <div class="temp">
+                                            <div class="room_carousel_temperature-word">Temp</div>
+                                            <div class="room_carousel_temperature-number">20C</div>
+                                        </div>
+                                        <div class="hum">
+                                            <div class="room_carousel_hum-word">Hum</div>
+                                            <div class="room_carousel_hum-number">50%</div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="hum">
-                                    <div class="room_carousel_hum-word">Hum</div>
-                                    <div class="room_carousel_hum-number">50%</div>
+                                <div class="outside">
+                                    <div class="where">Outside</div>
+                                    <div class="vars">
+                                        <div class="temp">
+                                            <div class="room_carousel_temperature-word">Temp</div>
+                                            <div class="room_carousel_temperature-number">20C</div>
+                                        </div>
+                                        <div class="hum">
+                                            <div class="room_carousel_hum-word">Hum</div>
+                                            <div class="room_carousel_hum-number">50%</div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="outside">
-                            <div class="where">Outside</div>
-                            <div class="vars">
-                                <div class="temp">                                
-                                    <div class="room_carousel_temperature-word">Temp</div>
-                                    <div class="room_carousel_temperature-number">20C</div>
-                                </div>
-                                <div class="hum">
-                                    <div class="room_carousel_hum-word">Hum</div>
-                                    <div class="room_carousel_hum-number">50%</div>
-                                </div>
+                            <div class="light">
+                                <div class="room_carousel_light-word where">Room Lighting</div>
+                                <div class="room_carousel_light-number">80%</div>
                             </div>
                         </div>
+                        <ul class="room_carousel_list">
+                            <li class="room_carousel_list_item fridge">
+                                <svg>
+                                    <use xlink:href="assets/img/tech/tech.svg#fridge"></use>
+                                </svg>
+                                Fridge</li>
+                            <li class="room_carousel_list_item microwave">
+                                <svg>
+                                    <use xlink:href="assets/img/tech/tech.svg#microwave"></use>
+                                </svg>
+                                Microwave</li>
+                            <li class="room_carousel_list_item fridge">
+                                <svg>
+                                    <use xlink:href="assets/img/tech/tech.svg#fridge"></use>
+                                </svg>
+                                Fridge</li>
+                            <li class="room_carousel_list_item microwave">
+                                <svg>
+                                    <use xlink:href="assets/img/tech/tech.svg#microwave"></use>
+                                </svg>
+                                Microwave</li>
+                            <li class="room_carousel_list_item microwave">
+                                <svg>
+                                    <use xlink:href="assets/img/tech/tech.svg#microwave"></use>
+                                </svg>
+                                Microwave</li>
+                        </ul>
                     </div>
-                    <div class="light">                        
-                        <div class="room_carousel_light-word where">Room Lighting</div>
-                        <div class="room_carousel_light-number">80%</div>
-                    </div>                    
+                    <div class="swiper-slide">
+                        <div class="room_carousel_img">
+                            <img src="assets/img/rooms/bedroom.jpg" alt="bedroom">
+                        </div>
+                        <div class="room_carousel_content">
+                            <div class="room_carousel_name title">Bedroom</div>
+                            <div class="boxes">
+                                <div class="inside">
+                                    <div class="where">This room</div>
+                                    <div class="vars">
+                                        <div class="temp">
+                                            <div class="room_carousel_temperature-word">Temp</div>
+                                            <div class="room_carousel_temperature-number">20C</div>
+                                        </div>
+                                        <div class="hum">
+                                            <div class="room_carousel_hum-word">Hum</div>
+                                            <div class="room_carousel_hum-number">50%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="outside">
+                                    <div class="where">Outside</div>
+                                    <div class="vars">
+                                        <div class="temp">
+                                            <div class="room_carousel_temperature-word">Temp</div>
+                                            <div class="room_carousel_temperature-number">20C</div>
+                                        </div>
+                                        <div class="hum">
+                                            <div class="room_carousel_hum-word">Hum</div>
+                                            <div class="room_carousel_hum-number">50%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="light">
+                                <div class="room_carousel_light-word where">Room Lighting</div>
+                                <div class="room_carousel_light-number">80%</div>
+                            </div>
+                        </div>
+                        <ul class="room_carousel_list">
+                            <li class="room_carousel_list_item fridge">
+                                <svg>
+                                    <use xlink:href="assets/img/tech/tech.svg#fridge"></use>
+                                </svg>
+                                Fridge</li>
+                            <li class="room_carousel_list_item microwave">
+                                <svg>
+                                    <use xlink:href="assets/img/tech/tech.svg#microwave"></use>
+                                </svg>
+                                Microwave</li>
+                            <li class="room_carousel_list_item fridge">
+                                <svg>
+                                    <use xlink:href="assets/img/tech/tech.svg#fridge"></use>
+                                </svg>
+                                Fridge</li>
+                            <li class="room_carousel_list_item microwave">
+                                <svg>
+                                    <use xlink:href="assets/img/tech/tech.svg#microwave"></use>
+                                </svg>
+                                Microwave</li>
+                        </ul>
+                    </div>
                 </div>
-                <ul class="room_carousel_list">
-                    <li class="room_carousel_list_item">Refrigerator</li>
-                    <li class="room_carousel_list_item">Microwave</li>
-                    <li class="room_carousel_list_item">Refrigerator</li>
-                    <li class="room_carousel_list_item">Microwave</li>
-                </ul> 
             </div>
         </main>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
         <script>
             $('.members_list').slick({Infinity: true, slidesToShow: 4, slidesToScroll: 1, arrows: true});
             $('.todo_list_item_link').click(function (e) {
@@ -122,6 +213,22 @@
                 setTimeout("Timer()", 1000);
             }
             Timer();
+
+            var swiper = new Swiper(".mySwiper", {
+                direction: "vertical",
+                slidesPerView: 1,
+                spaceBetween: 30,
+                loop: true,
+                effect: "cube",
+                grabCursor: true,
+                cubeEffect: {
+                    shadow: false,                    
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true
+                }
+            });
         </script>
     </body>
 </html>

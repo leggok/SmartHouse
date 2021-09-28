@@ -4,12 +4,13 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>        
+        <title>Document</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"> 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
         <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
         <link rel="stylesheet" href="assets/css/style.min.css">
     </head>
     <body>
@@ -67,73 +68,92 @@
                     Members
                 </div>
                 <div class="time">16:23:01</div>
-                <div class="members_list">                        
-                    <a href="#" class="members_list_item_link">
-                        <div class="member_img">
-                            P
-                        </div>
-                        <div class="member_name">Petro1 Vinnitskiy</div>
-                        <div class="member_login">pv_2001</div>
-                        <span class="member_status">At Home</span>
-                    </a>                                            
-                    <a href="#" class="members_list_item_link">
-                        <div class="member_img">
-                            P
-                        </div>
-                        <div class="member_name">Petro2 Vinnitskiy</div>
-                        <div class="member_login">pv_2001</div>
-                        <span class="member_status">At Home</span>
-                    </a>                                            
-                    <a href="#" class="members_list_item_link">
-                        <div class="member_img">
-                            P
-                        </div>
-                        <div class="member_name">Petro3 Vinnitskiy</div>
-                        <div class="member_login">pv_2001</div>
-                        <span class="member_status">At Home</span>
-                    </a>                                            
-                    <a href="#" class="members_list_item_link">
-                        <div class="member_img">
-                            P
-                        </div>
-                        <div class="member_name">Petro4 Vinnitskiy</div>
-                        <div class="member_login">pv_2001</div>
-                        <span class="member_status">At Home</span>
-                    </a>                                            
-                    <a href="#" class="members_list_item_link">
-                        <div class="member_img">
-                            P
-                        </div>
-                        <div class="member_name">Petro5 Vinnitskiy</div>
-                        <div class="member_login">pv_2001</div>
-                        <span class="member_status">At Home</span>
-                    </a>                                            
+                <div class="members_list swiper memberSwiper">
+                    <div class="swiper-wrapper">
+                        <a href="#" class="members_list_item_link swiper-slide">
+                            <div class="member_img">
+                                P
+                            </div>
+                            <div class="member_name">Petro1 Vinnitskiy</div>
+                            <div class="member_login">pv_2001</div>
+                            <span class="member_status">At Home</span>
+                        </a>
+                        <a href="#" class="members_list_item_link swiper-slide">
+                            <div class="member_img">
+                                P
+                            </div>
+                            <div class="member_name">Petro2 Vinnitskiy</div>
+                            <div class="member_login">pv_2001</div>
+                            <span class="member_status">At Home</span>
+                        </a>
+                        <a href="#" class="members_list_item_link swiper-slide">
+                            <div class="member_img">
+                                P
+                            </div>
+                            <div class="member_name">Petro3 Vinnitskiy</div>
+                            <div class="member_login">pv_2001</div>
+                            <span class="member_status">At Home</span>
+                        </a>
+                        <a href="#" class="members_list_item_link swiper-slide">
+                            <div class="member_img">
+                                P
+                            </div>
+                            <div class="member_name">Petro4 Vinnitskiy</div>
+                            <div class="member_login">pv_2001</div>
+                            <span class="member_status">At Home</span>
+                        </a>
+                        <a href="#" class="members_list_item_link swiper-slide">
+                            <div class="member_img">
+                                P
+                            </div>
+                            <div class="member_name">Petro5 Vinnitskiy</div>
+                            <div class="member_login">pv_2001</div>
+                            <span class="member_status">At Home</span>
+                        </a>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
                 </div>
-            </section>       
+            </section>
             <section class="news">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga odio dolorum, error dicta magnam harum saepe, cum ab, quia laborum asperiores excepturi quos! Veniam animi quo delectus perspiciatis culpa voluptatum!
-            </section>           
+            </section>
         </main>
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>                                     
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
         <script>
-            $('.members_list').slick({
-                    Infinity: true,
-                    slidesToShow: 4,
-                    slidesToScroll: 1,
-                    arrows: true                    
-                });
+            // $('.members_list').slick({
+            //         Infinity: true,
+            //         slidesToShow: 4,
+            //         slidesToScroll: 1,
+            //         arrows: true
+            //     });
             $('.todo_list_item_link').click(function (e) {
                 e.preventDefault();
                 $(this).toggleClass('done')
             })
             function Timer() {
                 var dt = new Date()
-                let minutes = 0                
+                let minutes = 0
                 $('.time').text(dt.getHours() + ":" + dt.getMinutes() + ":" + dt.getSeconds());
                 setTimeout("Timer()", 1000);
             }
             Timer();
+            var swiper = new Swiper(".memberSwiper", {
+                slidesPerView: 4,
+                spaceBetween: 30,
+                loop: true,
+                grabCursor: true,
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev"
+                },
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true
+                }
+            });
         </script>
     </body>
 </html>
