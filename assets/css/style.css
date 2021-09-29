@@ -498,6 +498,12 @@ main {
 }
 
 /*profile.html*/
+.profile {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .profile_left {
   margin-right: 10px;
   display: flex;
@@ -507,10 +513,9 @@ main {
   align-items: center;
 }
 .profile_right {
-  padding: 0 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  padding: 150px 40px;
+  height: 100%;
+  background-color: #F2F2F7;
 }
 .profile_img > img {
   border-radius: 20px;
@@ -523,8 +528,43 @@ main {
   margin-bottom: 20px;
 }
 
+.pho, .birth {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+}
+
 .bot {
   display: flex;
+  height: 100%;
+}
+
+.change {
+  background-color: #993D3A;
+  border-radius: 4px;
+  border: 1px solid #6A1616;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  transition: all 0.2s ease;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.change svg {
+  width: 16px;
+  height: 20px;
+  margin: auto;
+  fill: #fff;
+}
+.change:hover {
+  background-color: transparent;
+  color: #6A1616;
+  box-shadow: 0 0 24px rgba(234, 124, 105, 0.5);
+}
+.change:hover svg {
+  fill: #6A1616;
 }
 
 .phone_title,
@@ -541,7 +581,8 @@ select {
 }
 
 .form_phone,
-.form_descr {
+.form_descr,
+.profile_birthday {
   display: none;
 }
 
