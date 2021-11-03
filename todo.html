@@ -15,14 +15,14 @@
             <div class="menu">
                 <ul class="menu_list">
                     <li class="menu_list_item">
-                        <a href="index.html" class="active">
+                        <a href="index.html">
                             <svg>
                                 <use xlink:href="assets/img/sprite.svg#home"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="menu_list_item">
-                        <a href="todo.html">
+                        <a href="todo.html" class="active">
                             <svg>
                                 <use xlink:href="assets/img/sprite.svg#placeholder"></use>
                             </svg>
@@ -59,5 +59,28 @@
                 </ul>
             </div>
         </header>
+        <main>
+            <div class="todo_wrapper">
+                <div class="todo_head">
+                    <div class="todo_head_static">
+                        <h1 class="todo_head_title">Your ToDo List</h1>
+                        <div class="todo_head_add">+</div>
+                    </div>
+                    <div class="todo_head_dynamic">
+                        <input type="text" placeholder="Your ToDo...">
+                        <button type="submit">+</button>
+                        <button type="reset">-</button>
+                    </div>
+                </div>
+                <div class="todo_body">
+                    <ul class="todo_list">
+                        <li class="todo_list_item">                            
+                            <label for="item-1">Wake up, Boy!</label>
+                            <input type="checkbox" id="item-1" name="todo_item" value="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
     </body>
 </html>
