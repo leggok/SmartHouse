@@ -649,3 +649,133 @@ select {
   color: #fff;
   background-color: #993D3A;
 }
+
+/*ToDo List*/
+.todo {
+  width: 100%;
+}
+.todo .container {
+  justify-content: center;
+  align-items: center;
+}
+
+.todo_wrapper {
+  border: 1px solid #ABBBC2;
+  border-radius: 8px;
+  width: 90%;
+}
+
+.todo_head {
+  border-radius: 8px 8px 0 0;
+  padding: 20px;
+  font-size: 30px;
+  background-color: #993D3A;
+  color: #fff;
+  position: relative;
+  transition: all 0.2s ease;
+}
+.todo_head_static {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 14px;
+}
+.todo_head_count {
+  margin-right: 20px;
+}
+.todo_head_add {
+  transition: all 0.2s ease;
+}
+.todo_head_add a {
+  color: #fff;
+  font-size: 45px;
+}
+.todo_head_dynamic {
+  transition: all 0.2s ease;
+  display: flex;
+  opacity: 0;
+  height: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.todo_head_dynamic form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todo_head_dynamic input {
+  width: calc(100% - 92px);
+  height: 40px;
+  border: none;
+  background: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  font-size: 22px;
+}
+.todo_head_dynamic button {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  padding: 5px;
+  background: none;
+  border: none;
+}
+.todo_head_dynamic button svg {
+  transition: all 0.2s ease;
+  width: 100%;
+  height: 100%;
+  fill: #fff;
+}
+.todo_head_dynamic button:hover svg {
+  fill: #6A1616;
+}
+
+.open_todo_plus {
+  transform: rotate(135deg);
+}
+
+.todo_head_right {
+  display: flex;
+  align-items: center;
+}
+
+.todo_body {
+  padding: 20px;
+  border-radius: 0 0 8px 8px;
+  background-color: #FFC5C3;
+}
+
+.todo_body_list_item {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  transition: all 0.2s ease;
+  color: #6A1616;
+  padding: 15px 0 10px 0;
+  border-bottom: 1px solid #6A1616;
+}
+.todo_body_list_item label {
+  transition: all 0.2s ease;
+  width: 100%;
+}
+.todo_body_list_item input {
+  width: 20px;
+}
+.todo_body_list_item:hover {
+  transition: all 0.2s ease;
+  color: #993D3A;
+  cursor: pointer;
+}
+.todo_body_list_item:hover label {
+  transition: all 0.2s ease;
+  transform: translate(10px, 0);
+}
+
+.open_todo {
+  opacity: 1;
+  height: 40px;
+  display: flex;
+  transition: all 0.2s ease;
+}

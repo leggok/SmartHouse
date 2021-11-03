@@ -59,28 +59,60 @@
                 </ul>
             </div>
         </header>
-        <main>
-            <div class="todo_wrapper">
-                <div class="todo_head">
-                    <div class="todo_head_static">
-                        <h1 class="todo_head_title">Your ToDo List</h1>
-                        <div class="todo_head_add">+</div>
+        <main class="todo">
+            <div class="container">
+                <div class="todo_wrapper">
+                    <div class="todo_head">
+                        <div class="todo_head_static">
+                            <div class="todo_head_title">Your ToDo List</div>
+                            <div class="todo_head_right">
+                                <div class="todo_head_count">1</div>
+                                <div class="todo_head_add">
+                                    <a href="#">+</a>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="todo_head_dynamic">
+                            <form action="#">
+                                <input type="text" placeholder="Your ToDo...">
+                                <button type="submit">
+                                    <svg>
+                                        <use xlink:href="assets/img/icons/galochka.svg#gal"></use>
+                                    </svg>
+                                </button>
+                                <button type="reset">
+                                    <svg>
+                                        <use xlink:href="assets/img/icons/clear.svg#clear"></use>
+                                    </svg>
+                                </button>
+                            </form>
+                        </div>
                     </div>
-                    <div class="todo_head_dynamic">
-                        <input type="text" placeholder="Your ToDo...">
-                        <button type="submit">+</button>
-                        <button type="reset">-</button>
+                    <div class="todo_body">
+                        <ul class="todo_body_list">
+                            <li class="todo_body_list_item">                            
+                                <label for="item-1">Wake up, Boy!</label>
+                                <input type="checkbox" id="item-1" name="todo_item" value="">
+                            </li>
+                            <li class="todo_body_list_item">                            
+                                <label for="item-2">GG, Boy!</label>
+                                <input type="checkbox" id="item-2" name="todo_item" value="">
+                            </li>
+                        </ul>
                     </div>
-                </div>
-                <div class="todo_body">
-                    <ul class="todo_list">
-                        <li class="todo_list_item">                            
-                            <label for="item-1">Wake up, Boy!</label>
-                            <input type="checkbox" id="item-1" name="todo_item" value="">
-                        </li>
-                    </ul>
                 </div>
             </div>
         </main>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script>
+            $('.todo_head_count').text(
+                $('.todo_body_list li').length
+            )            
+            $('.todo_head_add a').click(function (e) {
+                e.preventDefault();
+                $('.todo_head_add').toggleClass('open_todo_plus')
+                $('.todo_head_dynamic').toggleClass('open_todo')
+            })
+        </script>
     </body>
 </html>
